@@ -33,7 +33,7 @@ class SchedulePlanner:
         if not found:
             print(f"Activity '{activity}' not found in the schedule.")
 
-        self.save_to_file()  # Save updated data to the file
+        self.save_to_file()  
 
     def delete_all_activities(self):
         self.activities = [] #creates empty list which deletes existing data
@@ -53,8 +53,6 @@ class SchedulePlanner:
 
 def main():
     schedule_planner = SchedulePlanner()
-
-    # Load existing schedule data from the file (if available)
     schedule_planner.load_from_file()
 
     while True:

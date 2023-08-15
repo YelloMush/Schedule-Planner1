@@ -4,4 +4,5 @@ Simple python-based program to create a daily Schedule Planner
 
 ## Instruction 
 
-Run in CMD
+- Install Python file to run
+- Run in any desired Terminal 
